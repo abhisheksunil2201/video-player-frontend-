@@ -10,7 +10,7 @@ export const ShareModal = ({ openShareModal, setOpenShareModal, location }) => {
   const [locationUrl, setLocationUrl] = useState("");
 
   useEffect(() => {
-    setLocationUrl(`https:/phoenixplayer.netlify.app${location}`);
+    setLocationUrl(`https://phoenixplayer.netlify.app${location}`);
   }, [location]);
 
   return (
