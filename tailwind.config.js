@@ -16,7 +16,7 @@ module.exports = {
         "gray-1": "#737373",
         "gray-2": "#9C9C9C",
         "primary-red": "#B32E04",
-        "secondary-red": "#CD6418",
+        "secondary-red": "#340808",
         transparent: "transparent",
       },
       height: {
