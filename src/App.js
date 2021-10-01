@@ -25,7 +25,7 @@ function App() {
         <Route path="/signup" element={<Signup />} />
         <Route path="/login" element={<Login />} />
         <Route path="/history" element={<History />} />
-        <Route path="/library" element={<Library />} />
+        <AuthRoute path="/library" element={<Library />} />
         <Route path="/likedvideos" element={<LikedVideos />} />
         <Route path="/watchlater" element={<WatchLater />} />
         <AuthRoute path="/playlist/:playlistId" element={<Playlist />} />
