@@ -8,6 +8,7 @@ import { ThemeProvider } from "./context/themeContext";
 import { QueryClient, QueryClientProvider } from "react-query";
 import { VideoProvider } from "./context/videosContext";
 import { PlaylistProvider } from "./context/playlistContext";
+import ScrollToTop from "./components/utils/ScrollTop";
 
 const queryClient = new QueryClient();
 
@@ -19,6 +20,7 @@ ReactDOM.render(
           <PlaylistProvider>
             <VideoProvider>
               <ThemeProvider>
+                <ScrollToTop />
                 <App />
               </ThemeProvider>
             </VideoProvider>
